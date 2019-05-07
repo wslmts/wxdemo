@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/sysinf/sysinf",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/logs/logs",
+          "text": "日志"
+        },
+        {
+          "pagePath": "pages/sysinf/sysinf",
+          "text": "系统信息"
+        }
+      ]
+    },
+  "debug":true,
+  "sitemapLocation": "sitemap.json"
+}

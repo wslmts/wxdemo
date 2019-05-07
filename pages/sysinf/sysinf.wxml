@@ -1,0 +1,22 @@
+<view><text>设备型号：</text>{{model}}</view>
+<view><text>设备品牌：</text>{{brand}}</view>
+<view><text>设备像素比：</text>{{pixelRatio}}</view>
+<view><text>微信版本号：</text>{{version}}</view>
+<view><text>客户端平台：</text>{{platform}}</view>
+<view><text>操作系统及版本：</text>{{system}}</view>
+<view><text>电量：</text>{{batteryLevel}}</view>
+<view><text>微信设置的语言：</text>{{language}}</view>
+<view><text>设备性能等级：</text>{{benchmarkLevel}}</view>
+
+<view><text>屏幕宽度：</text>{{screenWidth}}px</view>
+<view><text>屏幕高度：</text>{{screenHeight}}px</view>
+<view><text>可使用窗口宽度：</text>{{windowWidth}}px</view>
+<view><text>可使用窗口高度：</text>{{windowHeight}}px</view>
+<view><text>状态栏的高度：</text>{{statusBarHeight}}px</view>
+<view><text>用户字体大小：</text>{{fontSizeSetting}}px</view>
+
+<view><text>蓝牙的系统开关：</text>{{bluetoothEnabled}}</view>
+<view><text>地理位置的系统开关：</text>{{locationEnabled}}</view>
+<view><text>Wi-Fi 的系统开关：</text>{{wifiEnabled}}</view>
+<view><text>允许微信通知的开关：</text>{{notificationAuthorized}}</view>
+<view><text>客户端基础库版本：</text>{{SDKVersion}}</view>
