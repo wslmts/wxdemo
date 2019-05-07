@@ -1,3 +1,6 @@
 <view>
- 使用navigator open-type="navigateTo"时，页面不能同时存在于tabBar,否则open-type="switchTab"
+ 1.使用navigator open-type="navigateTo"时，页面不能同时存在于tabBar,否则open-type="switchTab"
+</view>
+<view>
+ 2.使用navigator 的页面，app定义的tabBar不会再显示
 </view>

@@ -1,2 +1,16 @@
-<view><text>页面索引</text></view>
-<view></view>
+<view class='row'>
+ <view><image src='../../assets/avator.jpeg'/></view>
+ <view class='colomn'>
+    <view>1</view>
+    <view>2</view>
+    <view>3</view>
+ </view>
+</view>
+<view class='row'>
+ <view><image src='../../assets/avator.jpeg'/></view>
+ <view class='colomn'>
+    <view>1</view>
+    <view>2</view>
+    <view>3</view>
+ </view>
+</view>

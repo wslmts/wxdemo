@@ -8,6 +8,6 @@
     </block>
   </view>
   <view class="usermotto">
-    <navigator open-type="navigateTo" url="/pages/flex/flex">页面索引</navigator>
+    <navigator open-type="navigate" url="/pages/flex/flex">flex</navigator>
   </view>
 </view>

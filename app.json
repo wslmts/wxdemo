@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/flex/flex",
     "pages/index/index",
     "pages/memo/memo",
     "pages/sysinf/sysinf",
-    "pages/flex/flex",
+    
     "pages/logs/logs"
   ],
   "window": {

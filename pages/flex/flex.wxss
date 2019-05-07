@@ -1,0 +1,12 @@
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.column{
+  display: flex;
+  flex-direction: column
+}
+image{
+  width:60px;
+  height: 60px;
+}
