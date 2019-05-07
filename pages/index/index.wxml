@@ -8,6 +8,6 @@
     </block>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <navigator open-type="navigateTo" url="/pages/flex/flex">页面索引</navigator>
   </view>
 </view>

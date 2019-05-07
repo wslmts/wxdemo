@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/memo/memo",
     "pages/sysinf/sysinf",
+    "pages/flex/flex",
     "pages/logs/logs"
   ],
   "window": {
@@ -15,6 +17,10 @@
         {
           "pagePath": "pages/index/index",
           "text": "首页"
+        },
+        {
+        "pagePath": "pages/memo/memo",
+        "text":"笔记"
         },
         {
           "pagePath": "pages/logs/logs",
