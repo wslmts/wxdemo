@@ -5,6 +5,7 @@ Page({
   onPullDownRefresh(){
     this.msg="pull refresh"
     console.log(123,arguments)
+    wx.startPullDownRefresh()
   },
   onReachBottom: function () {
 console.log(123)

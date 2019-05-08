@@ -5,16 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-    list:[],
     todos:[],
     inputValue:''
   },
   add(e){
-    this.data.list.push({
-      id: this.data.list.length,
+    this.list.push({
+      id: this.list.length,
       value: e.detail.value
     })
-    this.setData({ todos: this.data.list,
+    this.setData({ todos: this.list,
       inputValue:''})
        
   },
@@ -22,7 +21,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    this.list = []
   },
 
   /**
@@ -40,7 +39,7 @@ Page({
     let res = wx.getStorageSync('todoList')
     if(res){
       this.setData({ todos: res })
-      this.data.list = res
+      this.list = res
     }
   },
 
@@ -50,7 +49,7 @@ Page({
   onHide: function () {
     wx.setStorage({
       key: 'todoList',
-      data: this.data.list,
+      data: this.list,
     })
     
   },

@@ -1,6 +1,8 @@
 <view>
- 1.使用navigator open-type="navigateTo"时，页面不能同时存在于tabBar,否则open-type="switchTab"
+  1.navigateTo, redirectTo 只能打开非 tabBar 页面。
+  2.switchTab 只能打开 tabBar 页面。
+  3.reLaunch 可以打开任意页面。
+  4.页面底部的 tabBar 由页面决定，即只要是定义为 tabBar 的页面，底部都有 tabBar。
+  5.调用页面路由带的参数可以在目标页面的onLoad中获取。
 </view>
-<view>
- 2.使用navigator 的页面，app定义的tabBar不会再显示
-</view>
+ 
