@@ -1,0 +1,8 @@
+/* api.wxss */
+.wrap{
+  margin:10px;
+}
+input{
+  padding: 5px;
+  border: 1px solid #ccc;
+}

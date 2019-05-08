@@ -2,36 +2,37 @@
   "pages": [
     "pages/index/index",
     "pages/memo/memo",
-    "pages/sysinf/sysinf",
     "pages/flex/flex",
-    "pages/logs/logs"
+    "pages/api/api",
+    "pages/sysinf/sysinf"
   ],
   "window": {
+    "enablePullDownRefresh": true,
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-      "list": [
-        {
-          "pagePath": "pages/index/index",
-          "text": "首页"
-        },
-        {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
         "pagePath": "pages/memo/memo",
-        "text":"笔记"
-        },
-        {
-          "pagePath": "pages/logs/logs",
-          "text": "日志"
-        },
-        {
-          "pagePath": "pages/sysinf/sysinf",
-          "text": "系统信息"
-        }
-      ]
-    },
-  "debug":true,
+        "text": "笔记"
+      },
+      {
+        "pagePath": "pages/api/api",
+        "text": "TODO"
+      },
+      {
+        "pagePath": "pages/sysinf/sysinf",
+        "text": "系统信息"
+      }
+    ]
+  },
+  "debug": true,
   "sitemapLocation": "sitemap.json"
 }

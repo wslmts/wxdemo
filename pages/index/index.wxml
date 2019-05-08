@@ -8,6 +8,7 @@
     </block>
   </view>
   <view class="usermotto">
-    <navigator open-type="navigate" url="/pages/flex/flex">flex</navigator>
+    <navigator open-type="navigate" url="/pages/flex/flex"
+    hover-class='hover'>flex</navigator>
   </view>
 </view>

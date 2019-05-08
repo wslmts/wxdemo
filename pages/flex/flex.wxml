@@ -1,4 +1,5 @@
-<view class='row'>
+<view>{{msg}}</view>
+<view class='row' wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9,10]}}" wx:key="index" bindtap='clickMe'>
  <view><image src='../../assets/avator.jpeg'/></view>
  <view class='colomn'>
     <view>1</view>
@@ -6,11 +7,4 @@
     <view>3</view>
  </view>
 </view>
-<view class='row'>
- <view><image src='../../assets/avator.jpeg'/></view>
- <view class='colomn'>
-    <view>1</view>
-    <view>2</view>
-    <view>3</view>
- </view>
-</view>
+ 

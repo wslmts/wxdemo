@@ -1,0 +1,5 @@
+<!--api.wxml-->
+<view class='wrap'>
+<input type="text" bindblur="add" value='{{inputValue}}'/>
+<view wx:for="{{todos}}" wx:key="{{index}}">{{item.value}}</view>
+</view>
