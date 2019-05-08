@@ -6,6 +6,8 @@ Page({
   data: {
     userInfo: {},
     hasUserInfo: false,
+    past:0,
+    percent:20,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
@@ -41,6 +43,8 @@ Page({
         }
       })
     }
+    this.setData({past:this.getDays(),
+    percent:this.getPercent()})
   },
   getUserInfo: function(e) {
     console.log(e)
@@ -49,5 +53,17 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  getDays(){
+    let now = Date.now()
+    let d = new Date()
+    d.setMonth(0)
+    d.setDate(1)
+    let t=now-d.getTime()
+    return t/1000/3600/24
+  },
+  getPercent(){
+    let p = parseInt(this.getDays() * 100 / 365)
+    return p
   }
 })

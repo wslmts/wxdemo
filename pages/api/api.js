@@ -8,7 +8,6 @@ Page({
     list:[],
     todos:[],
     inputValue:''
-
   },
   add(e){
     this.data.list.push({

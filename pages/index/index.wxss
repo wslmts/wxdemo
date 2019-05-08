@@ -22,3 +22,7 @@
 .hover{
   color: #f00
 }
+progress{
+  margin:10px;
+  width: 100%
+}

@@ -7,6 +7,8 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
+  <view style='margin-top:10px'>今年已经过去了{{past}}天，你的目标完成了多少</view>
+  <progress percent="{{percent}}" show-info active></progress>
   <view class="usermotto">
     <navigator open-type="navigate" url="/pages/flex/flex"
     hover-class='hover'>flex</navigator>
